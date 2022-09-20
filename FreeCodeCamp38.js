@@ -4,7 +4,6 @@ if (n < 1) {
   } else {
     const arr = countdown(n - 1);
     arr.unshift(n);
-    return arr;;
+    return arr;
   }
 }
-console.log(countdown(5));
